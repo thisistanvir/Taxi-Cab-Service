@@ -1,0 +1,145 @@
+/* Normal desktop :1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    .header-area {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .header-area {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .tariff-box-content {
+        padding: 90px 15px 30px 15px;
+    }
+    .tariff-box-img {
+        top: -85px;
+    }
+    .main-menu li {
+        margin-right: 2px;
+    }
+    .widget-body li i {
+        margin-right: 15px;
+    }
+    .footer-app-links a i {
+        left: 65%;
+    }
+
+}
+
+ 
+
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+    .main-menu li {
+        margin-right: 2px;
+    }
+    .header-area {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .hero-img img {
+        width: 100%;
+    }
+    .single-tariff-box {
+        margin-bottom: 150px;
+    }
+    
+    .tariffs-area .col-md-8:last-child .single-tariff-box {
+        margin-bottom: 40px;
+    }
+    
+    .choose-box-text p {
+        padding-right: 15px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+    .hero-area {
+        height: 450px;
+    }
+    .header-area {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .hero-content h3 {
+        font-size: 25px;
+    }
+    .hero-content h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
+    .hero-content h5 {
+        letter-spacing: 5px;
+    }
+    .booking-content h3 {
+        font-size: 25px;
+    }
+    .booking-content h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .booking-content p {
+        margin-bottom: 25px;
+    }
+    .tariff-box-content {
+        padding: 90px 15px 30px 15px;
+    }
+    .tariff-box-img {
+        top: -110px;
+    }
+    .section-title h3 {
+        font-size: 25px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .single-choose-box {
+        display: inline-block !important;
+        margin-bottom: 40px;
+    }
+    
+    .choose-box-text {
+        float: left;
+        margin-top: 20px;
+    }
+    .download-content h4 {
+        font-size: 25px;
+        padding-right: 0;
+    }
+    .download-content p {
+        padding-right: 0;
+    }
+    .app-links a {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .call-to-action-content h3 {
+        font-size: 20px;
+    }
+    .call-to-action-content h2 {
+        font-size: 40px;
+    }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .tariff-box-content {
+        padding: 110px 15px 30px 15px;
+    }
+    .tariff-box-img {
+        top: -150px;
+    }
+    .single-tariff-box {
+        margin-bottom: 220px;
+    }
+}
